@@ -1,61 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-<link type="text/css" rel="stylesheet" href=" style.css" />
 
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Error</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">
+
+   <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
 
 </head>
+
 <body>
-<script src="main.js"></script>
-<div class="moon"></div>
-<div class="moon__crater moon__crater1"></div>
-<div class="moon__crater moon__crater2"></div>
-<div class="moon__crater moon__crater3"></div>
 
-<div class="star star1"></div>
-<div class="star star2"></div>
-<div class="star star3"></div>
-<div class="star star4"></div>
-<div class="star star5"></div>
+	<!-- header
+   ================================================== -->
+   <header class="main-header">
+   	<div class="row">
+   		<div class="logo">
+	         <a href="index.html">Bilal Tamboli</a>
+	      </div>
+   	</div>
 
-<div class="error">
-  <div class="error__title">404</div>
-  <div class="error__subtitle">Hmmm...</div>
-  <div class="error__description">It looks like one of the  developers fell asleep</div>
-  <button class="error__button error__button--active">LOGIN</button>
-  <button class="error__button">CONTACT</button>
-</div>
+   	<a class="menu-toggle" href="#"><span>Menu</span></a>
+   </header> <!-- /header -->
 
-<div class="astronaut">
-  <div class="astronaut__backpack"></div>
-  <div class="astronaut__body"></div>
-  <div class="astronaut__body__chest"></div>
-  <div class="astronaut__arm-left1"></div>
-  <div class="astronaut__arm-left2"></div>
-  <div class="astronaut__arm-right1"></div>
-  <div class="astronaut__arm-right2"></div>
-  <div class="astronaut__arm-thumb-left"></div>
-  <div class="astronaut__arm-thumb-right"></div>
-  <div class="astronaut__leg-left"></div>
-  <div class="astronaut__leg-right"></div>
-  <div class="astronaut__foot-left"></div>
-  <div class="astronaut__foot-right"></div>
-  <div class="astronaut__wrist-left"></div>
-  <div class="astronaut__wrist-right"></div>
+   <!-- navigation
+   ================================================== -->
+   <nav id="menu-nav-wrap">
 
-  <div class="astronaut__cord">
-    <canvas id="cord" height="500px" width="500px"></canvas>
-  </div>
+   	<h5>Site Pages</h5>
+		<ul class="nav-list">
+			<li><a href="https://www.bilaltamboli.com/" title="">Home</a></li>
 
-  <div class="astronaut__head">
-    <canvas id="visor" width="60px" height="60px"></canvas>
-    <div class="astronaut__head-visor-flare1"></div>
-    <div class="astronaut__head-visor-flare2"></div>
-  </div>
-</div>
+		</ul>
 
 
+	</nav>
+
+	<!-- main content
+   ================================================== -->
+   <main id="main-404-content" class="main-content-particle-js">
+
+   	<div class="content-wrap">
+
+		   <div class="shadow-overlay"></div>
+
+		   <div class="main-content">
+		   	<div class="row">
+		   		<div class="col-twelve">
+
+			  			<h1 class="kern-this">404 Error.</h1>
+			  			<p>
+						Oooooops! Looks like nothing was found at this location.
+						Maybe try on of the links below, click on the top menu
+						or try a search?
+			  			</p>
+
+			  			<div class="search">
+				      	<form>
+								<input type="text" id="s" name="s" class="search-field" placeholder="Type and hit enter …">
+							</form>
+				      </div>
+
+			   	</div> <!-- /twelve -->
+		   	</div> <!-- /row -->
+		   </div> <!-- /main-content -->
+
+		   <footer>
+		   	<div class="row">
+
+		   		<div class="col-seven tab-full social-links pull-right">
+
+			   	</div>
+
+		  			<div class="col-five tab-full bottom-links">
+			   		<ul class="links">
+				   		<li><a href="https://www.bilaltamboli.com/">Homepage</a></li>
+
+				   	</ul>
+
+
+			   	</div>
+
+		   	</div> <!-- /row -->
+		   </footer>
+
+		</div> <!-- /content-wrap -->
+
+   </main> <!-- /main-404-content -->
+
+   <div id="preloader">
+    	<div id="loader"></div>
+   </div>
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 
 </body>
-<html>
+
+</html>
